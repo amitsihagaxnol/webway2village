@@ -29,7 +29,7 @@ use App\Models\{
 };
 use Modules\Gateway\Entities\GatewayModule;
 
-class ActivityControllersdf extends Controller
+class ActivityController extends Controller
 {
     private $helper;
 

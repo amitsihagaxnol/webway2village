@@ -38,7 +38,7 @@ class BookingController extends Controller
     public function myBookings(UserBookingsDataTable $dataTable)
     {
 
-        //helloHHH
+        //hello
         $data = [];
         if (isset(request()->status)) {
             $status = '%' . request()->status . '%'; // Add wildcards
